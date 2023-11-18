@@ -1,0 +1,131 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --borda:1px solid black;
+}
+header{
+    background-color: aqua;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header > h1{
+    font-size: 2em;
+}
+h1{
+    padding-right: 30px;
+    width: 150px;
+    margin:0;
+}
+.left-text{
+    padding-left: 10px;
+    width: 175px;
+    height: 20px;
+}
+.right-text{
+    height: 20px;
+    max-width: 200px;
+}
+nav{
+    border: var(--borda);
+    display: flex;
+    justify-content: center;
+    padding: 2px 5px;
+    margin-bottom:5px;
+    background-color: rgba(0, 0, 255, 0.438);
+}
+.ancoras{
+    background-color: rgba(240, 248, 255, 0.43);
+    padding: 2px 6px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: auto;
+    outline-width: initial;
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+}
+.ancoras >a{
+    color: black;
+    text-decoration: none;
+}
+.ancoras >a:hover{
+    text-decoration: underline;
+}
+main{
+    border: var(--borda);
+    margin: auto;
+    margin-bottom: 5px;
+    max-width: 900px;
+    padding-top: 15px;
+    background-color: rgba(165, 42, 42, 0.296);
+}
+.imagem{
+    display: block;
+    margin: auto;
+    max-width: 645px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+.dot{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+article{
+    background-color: aqua;
+    margin: auto;
+    margin-bottom: 25px;
+    max-width: 610px;
+    padding: 15px 15px 8px 15px;
+    border: 1px solid black;
+}
+article>p{
+    max-width: 410px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-indent: 5px;
+    padding-bottom: 5px;
+}
+section{
+    border: 1px solid black;
+    outline: auto;
+    max-width: 210px;
+    margin: auto;
+}
+section>a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    width: 186px;
+}
+section>a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.whats:before{
+    content: ""; /* Isso é necessário para usar o :before */
+    display: inline-block; /* Isso garante que a imagem seja exibida ao lado do texto */
+    width: 25px; /* Largura da imagem */
+    height: 25px; /* Altura da imagem */
+    background: url('imagens/whats-icon.png') no-repeat; /* URL da imagem que você deseja usar */
+    background-size: 100%; /* Redimensionar a imagem para caber no espaço */
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
