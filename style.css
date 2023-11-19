@@ -1,13 +1,21 @@
 @charset "UTF-8";
+/* CORES PARA A PAGINA:
+   -#5372FF
+   -#54A9FF
+   -#3A2E8A
+*/
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
+    --cor3:#3A2E8A;
+    --cor2:#54A9FF;
+    --cor1:#5372FF;
     --borda:1px solid black;
 }
 header{
-    background-color: aqua;
+    background-color: var(--cor2);
     height: 90px;
     display: flex;
     align-items: center;
@@ -21,15 +29,18 @@ h1{
     padding-right: 30px;
     width: 150px;
     margin:0;
+    text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.496);
 }
 .left-text{
     padding-left: 10px;
     width: 175px;
     height: 20px;
+    text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.496);
 }
 .right-text{
     height: 20px;
     max-width: 200px;
+    text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.496);
 }
 nav{
     border: var(--borda);
@@ -37,10 +48,11 @@ nav{
     justify-content: center;
     padding: 2px 5px;
     margin-bottom:5px;
-    background-color: rgba(0, 0, 255, 0.438);
+    background-color:var(--cor2);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.286);
 }
 .ancoras{
-    background-color: rgba(240, 248, 255, 0.43);
+    background-color: rgba(255, 255, 255, 0.43);
     padding: 2px 6px;
     outline-color: rgb(0, 0, 0);
     outline-style: auto;
@@ -50,24 +62,30 @@ nav{
     width: 220px;
 }
 .ancoras >a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .ancoras >a:hover{
+    color:black;
     text-decoration: underline;
+}
+body{
+    background-color: var(--cor1);
 }
 main{
     border: var(--borda);
     margin: auto;
     margin-bottom: 5px;
-    max-width: 900px;
+    max-width: 745px;
     padding-top: 15px;
-    background-color: rgba(165, 42, 42, 0.296);
+    background-color:var(--cor3);
+    box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.285);
 }
 .imagem{
     display: block;
     margin: auto;
     max-width: 645px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.464);
 }
 img{
     display: block;
@@ -84,12 +102,13 @@ img{
     margin-bottom: 35px;
 }
 article{
-    background-color: aqua;
+    background-color:var(--cor2);
     margin: auto;
     margin-bottom: 25px;
     max-width: 610px;
     padding: 15px 15px 8px 15px;
     border: 1px solid black;
+    box-shadow: 4px 5px 13px rgba(0, 0, 0, 0.384);
 }
 article>p{
     max-width: 410px;
