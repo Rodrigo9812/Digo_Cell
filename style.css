@@ -69,6 +69,14 @@ nav{
     color:black;
     text-decoration: underline;
 }
+#whats{
+    color: green;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.34);
+}
+#insta{
+    color: #f101f7;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.416);
+}
 body{
     background-color: var(--cor1);
 }
