@@ -32,6 +32,7 @@ header > h1{
     font-size: 2em;
 }
 h1{
+    color: white;
     padding-right: 30px;
     width: 150px;
     margin:0;
@@ -48,6 +49,7 @@ h1{
     font-weight: normal;
     top: -10px;
     position: relative;
+    color: white;
 }
 .right-text{
     height: 20px;
@@ -55,6 +57,7 @@ h1{
     text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.496);
     font-family:Anton;
     font-weight: normal;
+    color: white;
 }
 nav{
     border: var(--borda);
@@ -84,8 +87,8 @@ nav{
     text-decoration: underline;
 }
 #whats{
-    color: green;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.34);
+    color: rgb(72, 238, 72);
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.34);
 }
 #insta{
     color: #f101f7;
@@ -133,18 +136,22 @@ article{
     box-shadow: 4px 5px 13px rgba(0, 0, 0, 0.384);
 }
 article>p{
-    max-width: 410px;
+    max-width: 416px;
     display: block;
     margin: auto;
     text-align: center;
     text-indent: 5px;
     padding-bottom: 5px;
+    color: white;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.541);
+    font-family: Anton;
 }
 section{
     border: 1px solid black;
     outline: auto;
     max-width: 210px;
     margin: auto;
+    background-color: #3c72a88a;
 }
 section>a{
     padding-bottom: 10px;
@@ -170,7 +177,7 @@ section>a:hover{
     vertical-align: middle;
 }
 .whats{
-    color: green;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.34);
+    color: rgb(72, 238, 72);
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.208);
 }
 
