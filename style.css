@@ -94,15 +94,20 @@ nav{
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.416);
 }
 body{
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: var(--cor1);
 }
 main{
+    border-radius: 3px;
     border: var(--borda);
     margin: auto;
     margin-bottom: 5px;
     max-width: 745px;
     padding-top: 15px;
-    background-color:var(--cor3);
+    background-color:#3a2e8a88;
     box-shadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.285);
 }
 .imagem{
@@ -126,6 +131,7 @@ img{
     margin-bottom: 35px;
 }
 article{
+    border-radius: 3px;
     background-color:var(--cor2);
     margin: auto;
     margin-bottom: 25px;
@@ -146,11 +152,12 @@ article>p{
     font-family: Anton;
 }
 section{
+    border-radius: 3px;
     border: 1px solid black;
     outline: auto;
     max-width: 210px;
     margin: auto;
-    background-color: #3c72a88a;
+    background-color: #3c72a838;
 }
 section>a{
     padding-bottom: 10px;
