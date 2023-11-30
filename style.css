@@ -22,19 +22,18 @@
 }
 header{
     background-color: var(--cor2);
-    height: 90px;
+    height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
 }
-header > h1{
-    font-size: 2em;
-}
 h1{
+    font-size: 2em;
+    padding-left: 20px;
     color: white;
     width: 176px;
-    margin:0;
     text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.496);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
